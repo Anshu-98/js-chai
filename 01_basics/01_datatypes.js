@@ -16,6 +16,14 @@ let temp = null;
 // boolean = true/false 
 // undefined => no value assinged
 // null => standalone value
+// Symbol => primitive datatype     It is immutable. Each symbol has different value
+
+let sym = Symbol("New code")
+let newSym = Symbol("new code")
+
+console.log(sym.description);
+console.log(typeof sym)
+console.log(sym===newSym)
 
 // object
 
