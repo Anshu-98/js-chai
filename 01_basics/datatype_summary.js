@@ -22,3 +22,32 @@ const myFunction = function (){
 myFunction();
 
 console.log(typeof student);
+
+
+// ________________________________________________________
+
+// primitive datatypes store in stack memory , call by value means a copy
+
+// non- primitive - heap   , call by reference means actual value
+
+let fullName = "anshu sharma"
+
+let firstName = fullName
+
+firstName = "anshu"
+
+console.log(firstName);
+console.log(fullName);
+
+let userOne = {
+    email: "anshu@gmail.com",
+    upi: "anshu@ybl"
+
+}
+
+let userTwo = userOne;
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
