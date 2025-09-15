@@ -1,11 +1,11 @@
 const accountID = 122456
 let accountEmail = "anshu@gmail.com"
 var accountPassword = "220099"
-let accountState;
-accountCity = "Lucknow"
+let accountState; // It will we undefined as no value is assigned to variable
+accountCity = "Lucknow"  // not recommended
 
-// accountID = "222222"
-accountEmail = "as@gmail.com"
+// accountID = "222222"  // not allowed because we can not reassign a value to const
+accountEmail = "as@gmail.com" // allowed because let can be reassign
 accountPassword = "3334455"
 
 accountCity = "Agra"
