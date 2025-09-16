@@ -1,12 +1,15 @@
-let score = "anshu"
+let score = "33"
+// let score = "Anshu";
 
 let isNumber = Number(score);
 
-//console.log(typeof isNumber);
-//console.log(isNumber);
+// console.log(typeof isNumber);
+// console.log(isNumber);
 
-//  33 => 33 
-// "anshu" = NaN
+//  "33" => 33 
+// "anshu" => NaN
+// null => 0
+// undefined = NaN
 // true => 1, false = 0
 
 let isLoggedIn = 112
@@ -49,8 +52,8 @@ console.log(str1+ str2)
 // console.log("1"+2+2)
 // console.log(1+2+"2")
 
-console.log(+true)
-console.log(+"")
+// console.log(+true)
+// console.log(+"")
 
 let x = 3;
 const y = x++;
