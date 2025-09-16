@@ -2,14 +2,18 @@
 
 // alert(3 +3);         we are using nodejs, not the browser
 
-console.log( 3+3);
+console.log(3+3);
 
 let name = "Anshu"
 let age = 21
 let isLogged = true;
 let temp = null;
 
-// type of datatypes 
+// ----------------------type of datatypes--------------------------
+
+// 1. Primitive datatypes
+
+
 // number => 2 to the power 53
 // bigint 
 // string = "yes"
@@ -25,10 +29,8 @@ console.log(sym.description);
 console.log(typeof sym)
 console.log(sym===newSym)
 
-// object
+// 2. Object
 
+console.log(typeof "Anshu")      // type - string
 console.log(typeof null)         // object
 console.log(typeof undefined)    // undefined
-
-
-
