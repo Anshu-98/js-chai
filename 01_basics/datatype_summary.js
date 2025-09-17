@@ -1,27 +1,26 @@
-// # primitive
+// # Primitive
 
 // call by value - String, Number, Boolean, null, undefined, Symbol, BigInt
 
 
-
-// # non primitive
+// # Non Primitive
 
 // call by reference - Array, Objects, functions
 
-let student = ["Anshu" , "Ashu", "Gyan"]
+let student = ["Anshu" , "Ashu", "Gyan"]  // array
 
-const myObj = {
-    name: "ansh",
+const myObj = {                           // object
+    name: "Ansh",
     age: 22,
 }
 
-const myFunction = function (){
-    console.log("Hello")
+const myFunction = function (){           // fuction
+    // console.log("This is myFuntion")
 }
 
 myFunction();
 
-console.log(typeof student);
+// console.log(typeof student);
 
 
 // ________________________________________________________
@@ -30,14 +29,14 @@ console.log(typeof student);
 
 // non- primitive - heap   , call by reference means actual value
 
-let fullName = "anshu sharma"
+let fullName = "anshu sharma";
 
-let firstName = fullName
+let firstName = fullName;
 
-firstName = "anshu"
+firstName = "anshu";
 
-console.log(firstName);
-console.log(fullName);
+console.log(firstName);   //'anshu'
+console.log(fullName);    //'anshu sharma'
 
 let userOne = {
     email: "anshu@gmail.com",
@@ -47,7 +46,17 @@ let userOne = {
 
 let userTwo = userOne;
 
-console.log(userOne.email);
-console.log(userTwo.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+function example(){
+    let x = 10;            // Primitive, stored in stack
+    let y = {name:"Anshu"} // Object, reference in stack, data in heap
+    let z = y;             // Reference copied, both point to the same heap memory
+    z.name = "Ankit";      // Changes affect the original object in the heap
+    // console.log(y);
+}
+
+example();
 
 
