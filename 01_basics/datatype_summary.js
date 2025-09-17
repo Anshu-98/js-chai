@@ -29,11 +29,11 @@ myFunction();
 
 // non- primitive - heap   , call by reference means actual value
 
-let fullName = "anshu sharma";
+let fullName = "Anshu sharma";
 
 let firstName = fullName;
 
-firstName = "anshu";
+firstName = "Anshu";
 
 console.log(firstName);   //'anshu'
 console.log(fullName);    //'anshu sharma'
