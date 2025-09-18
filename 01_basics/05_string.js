@@ -10,4 +10,21 @@ let gameName = new String('Contra');
 
 // console.log(gameName)
 console.log(gameName.charAt([3]));
-console.log(gameName.toUpperCase())
+console.log(gameName.toUpperCase());
+let newString = gameName.slice(-4,4);
+
+console.log(newString);
+
+let string2 = "     Anshu    ";
+console.log(string2);
+console.log(string2.trim());
+
+let url = "https://anshu.com/anshu%20sharma";
+
+console.log(url.replace("%20", "-"));
+
+console.log(url.includes('anshu'));
+
+console.log(gameName.length);
+
+
