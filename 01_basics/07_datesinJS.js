@@ -32,7 +32,8 @@ let form = newDate.toLocaleString('default',{
     weekday: "long",
     day: "numeric",
     year: "numeric",
-    month: "long"
+    month: "long",
+    timeZone: "IST"
 })
 
 console.log(form);
