@@ -20,10 +20,10 @@ const myArr2 = new Array(1,2,3,4)  // we can also declare array like this
 
 // console.log(myArr.includes(3))
 
-// let newArr = myArr.join()
+let newArr = myArr.join()
 
 // console.log(myArr)
-// console.log(typeof newArr)
+// console.log(newArr)
 
 // ---slice,splice---
 
