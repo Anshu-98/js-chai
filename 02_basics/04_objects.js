@@ -28,7 +28,7 @@ const newObj = {...obj1, ...obj2}
 
 
 
-console.log(newObj)
+// console.log(newObj)
 
 // console.log(newObj === Target);
 
@@ -44,14 +44,43 @@ const newUser = [
     },
 ]
 
-console.log(newUser[0].email)
+// console.log(newUser[0].email)
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(Object.isFrozen(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(Object.isFrozen(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty("id"))
+// console.log(tinderUser.hasOwnProperty("id"))
+
+//-----------object destructuring-------------
+
+const course = {
+    courseName: "Java 2025",
+    coursePrice: "999",
+    courseInstructor: "Sumit"
+}
+
+// console.log(course.courseInstructor) 
+
+const {courseInstructor: instructor} = course   // object is destuctured, we can provide any name to destructed key
+
+// console.log(courseInstructor)
+console.log(instructor)
+
+// JSON: javascript object notation
+
+// {
+//     "id": 2233,
+//     "name": "anshu",               // in object form
+//     "age": 26
+// }
+
+// [
+//     {},                               // in array form 
+//     {}
+// ]
+
 
