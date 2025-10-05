@@ -19,11 +19,16 @@ function addNumbers(number1, number2){
     
     return number1+number2
 
+    console.log("execute this line")   // this line will never execute as return is exit point on a function
+
 }
 
 // addNumbers(3,4);    // 7
 
 const result = addNumbers(3,4)
-console.log(result)
+// console.log("Result:" ,result)
+
+
+
 
 
