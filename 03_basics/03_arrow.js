@@ -39,11 +39,13 @@ const coffee =  () => {
 //  coffee()
 
 // const addTwo = (num1, num2) => {             // normal regular function
-//     return num1+ num2
+    // return num1+ num2
 // }
 
 // const addTwo = (num1,num2) => num1+num2        // implicit return
 // const addTwo = (num1,num2) => (num1+num2)        // implicit return
 const addTwo = (num1,num2) => ({username:"Anshu"})        // implicit return
-
 // console.log(addTwo(1,2))
+
+
+
