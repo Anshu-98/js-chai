@@ -49,7 +49,6 @@ const addTwo = (num1,num2) => ({username:"Anshu"})        // implicit return
 
 
 
-<<<<<<< HEAD
-=======
+
 // console.log(addTwo(1,2))
->>>>>>> 673ae4b (..)
+
