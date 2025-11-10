@@ -8,7 +8,7 @@
 
 ((name)=> {
     console.log(`DB connected again ${name}`)
-})("Anshu")
+})("Anshu");
 
 
 // Immedialtely Invoked Function Expression(IIFE)  ----An IIFE is a JavaScript function that is executed immediately after it is defined. It is commonly used to create a private scope for variables, preventing them from polluting the global namespace.
