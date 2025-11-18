@@ -17,3 +17,19 @@
 // const balance = 1000
 // if (balance> 500) console.log("you have enough balance");  // this has implicit scope without {}
 
+
+const userLoggedIn = true
+const debitCard = true
+const userLoggedinFromGoogle = true
+const userLoggedinFromEmail = false
+
+// if(userLoggedIn && debitCard &&){
+//     console.log("Allow to buy course")
+// }
+// else{
+//     console.log("Please sign up and enter card details")
+// }
+
+if(userLoggedinFromGoogle|| userLoggedinFromEmail){
+    console.log("You are logged in")
+}
