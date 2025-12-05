@@ -4,10 +4,11 @@ coding.forEach( function(item){
     // console.log(item)
 })
 
-coding.forEach( (item)=> {
+const values = coding.forEach( (item)=> {
     // console.log(item)
+    return item;
 })
-
+// console.log(values);  // undefined for each loop returns no value
 greet = (item)=>{
     // console.log(item);
 }
@@ -27,5 +28,14 @@ const myCoding  = [
 ]
 
 myCoding.forEach( (item)=>{
-    console.log(item.name + " is " + item.difficulty);
+    // console.log(item.name + " is " + item.difficulty);
 })
+
+
+// filter method
+const myNums = [1,2,3,4,5];
+
+const newmyNums = myNums.filter( (num)=> { return num>2})
+
+console.log(newmyNums);  // use return statement in filter method
+
